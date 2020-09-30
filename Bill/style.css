@@ -1,0 +1,135 @@
+@import 'https://fonts.googleapis.com/css2?family=Cairo&display=swap>';
+.clear {
+  clear: both;
+}
+
+body {
+  direction: rtl;
+  direction: rtl;
+  font-family: "Cairo", sans-serif;
+}
+body .container {
+  width: 1200px;
+  margin: auto;
+  position: relative;
+}
+body .container .watermark {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  z-index: -1;
+}
+body .container .page-logo {
+  width: 200px;
+  position: absolute;
+  right: -78px;
+  margin-top: 10px;
+  top: 0px;
+}
+body .container .bill-information {
+  padding-top: 50px;
+  position: relative;
+}
+body .container .bill-information h5 {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+  margin-top: 50px;
+}
+body .container .bill-information .line-1 {
+  width: 350px;
+  position: absolute;
+  right: -90px;
+  margin-top: 10px;
+}
+body .container .bill-information .bill-info-form {
+  margin-top: 20px;
+}
+body .container .bill-information .bill-info-form h6 {
+  margin: 0;
+  font-size: 13px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+body .container .bill-information .bill-info-number {
+  position: absolute;
+  left: 40px;
+  top: 100px;
+}
+body .container .bill-information .bill-info-number h6 {
+  margin: 0;
+  font-size: 13px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+body .container .bill-info-to {
+  margin-top: 30px;
+}
+body .container .bill-info-to h6 {
+  margin: 0;
+  font-size: 13px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+body .container .bill-table {
+  margin-top: 60px;
+}
+body .container .bill-table table {
+  border-collapse: collapse;
+  border: 2px solid #000;
+  width: 100%;
+}
+body .container .bill-table td, body .container .bill-table th {
+  border: 1px solid #c0bebe;
+  text-align: center;
+  padding: 8px;
+}
+body .container .bill-table td {
+  height: 250px;
+}
+body .container .bill-table tr th:first-child {
+  width: 700px;
+}
+body .container .bill-table-2 {
+  width: 50%;
+  float: left;
+}
+body .container .bill-table-2 td {
+  height: auto;
+  text-align: right;
+}
+body .container .bill-table-2 td:first-child {
+  width: 400px;
+  font-weight: bold;
+}
+body .container .policy, body .container .thanks {
+  text-align: center;
+}
+body .container .policy h5, body .container .policy p, body .container .thanks h5, body .container .thanks p {
+  margin: 0;
+  font-weight: bold;
+}
+body .container .policy {
+  margin-top: 50px;
+  position: relative;
+  padding-bottom: 10px;
+}
+body .container .policy h5 {
+  font-size: 20px;
+}
+body .container .policy p {
+  letter-spacing: 1px;
+}
+body .container .line-2 {
+  width: 400px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+body .container .thanks {
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

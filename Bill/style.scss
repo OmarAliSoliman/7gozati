@@ -1,0 +1,134 @@
+@import 'https://fonts.googleapis.com/css2?family=Cairo&display=swap>';
+.clear{
+  clear: both;
+}
+body{
+  direction: rtl;
+  direction: rtl;font-family: 'Cairo', sans-serif;
+  .container{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    .watermark{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+      z-index: -1;
+    }
+    .page-logo{
+      width: 200px;
+      position: absolute;
+      right: -78px;
+      margin-top: 10px;
+      top: 0px;
+    }
+    .bill-information{
+      padding-top: 50px;
+      position: relative;
+      h5{
+        font-weight: bold;
+        font-size: 20px;
+        margin: 0;
+        margin-top: 50px;
+      }
+      .line-1{
+        width: 350px;
+        position: absolute;
+        right: -90px;
+        margin-top: 10px;
+      }
+      .bill-info-form{
+        margin-top: 20px;
+        h6{
+          margin: 0;
+          font-size: 13px;
+          margin-top: 5px;
+          font-weight: bold;
+        }
+      }
+      .bill-info-number{
+        position: absolute; 
+        left: 40px;
+        top: 100px;
+        h6{
+          margin: 0;
+          font-size: 13px;
+          margin-top: 5px;
+          font-weight: bold;
+        }
+      }
+    }
+    .bill-info-to{
+      margin-top: 30px;
+      h6{
+        margin: 0;
+        font-size: 13px;
+        margin-top: 5px;
+        font-weight: bold;
+      }
+    }
+    .bill-table{
+      margin-top: 60px;
+      table {
+        border-collapse: collapse;
+        border: 2px solid #000;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #c0bebe;
+        text-align: center;
+        padding: 8px;
+      }
+      td{
+        height: 250px;
+      }
+      tr{
+        th:first-child{
+          width: 700px;
+        }
+      }
+    }
+    .bill-table-2{
+      width: 50%;
+      float: left;
+      td{
+        height: auto;
+        text-align: right;
+      }
+      td:first-child{
+        width: 400px;
+        font-weight: bold;
+      }
+    }
+    .policy, .thanks{
+      text-align: center;
+      h5,p{
+        margin: 0;
+        font-weight: bold;
+      }
+    }
+    .policy{
+      margin-top: 50px;
+      position: relative;
+      padding-bottom: 10px;
+      h5{
+        font-size: 20px;
+      }
+      p{
+        letter-spacing: 1px;
+      }
+    }
+    .line-2{
+      width: 400px;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+    .thanks{
+      margin-top: 15px;
+    }
+  }
+}
